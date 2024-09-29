@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation</title>
+    <!-- Google font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<!-- custom css -->
+<link rel="stylesheet" href="css/stlye.css">
+<!-- daisyui cdn -->
+<link href="https://cdn.jsdelivr.net/npm/daisyui@4.11.1/dist/full.min.css" rel="stylesheet" type="text/css" />
+<!-- tailwind css -->
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+     <!-- navar section -->
+     <header>
+        <nav class="navbar">
+            <div class="left_nav">
+              <h1 class="text-2xl font-bold  ps-4"><a href="index.html">Bengal Bites</a></h1>
+            </div>
+            <div class="right_nav pe-24">
+              <ul class="nav_items">
+                <li><a class="hover:text-red-600" href="index.html">Home</a></li>
+                <li>
+                  <a class="hover:text-red-600" href="menu.html">Menu</a>
+                </li>
+                <li><a class="hover:text-red-600" href="reservations.html">Reservation</a></li>
+                <li><a class="hover:text-red-600" href="contact.html">Contact </a></li>
+                
+              </ul>
+            </div>
+          </nav>
+    </header>
+
+   <!-- This is main tag -->
+   <main>
+        <section class="ms-20 flex justify-center items-center">
+            <div class="flex h-full w-full mb-20">
+                <form action="" class="mt-24 bg-gray-900 p-12 mb-6 rounded-lg">
+                  <h1 class="text-3xl font-bold text-center my-8 text-white">Book A Table</h1>
+                  <div>
+                    <label class="block mb-2 text-white" for="email"> Your Name : </label>
+                    <input
+                      class="border-2 border-black p-4 w-96 rounded-lg"
+                      type="email"
+                      name="email"
+                      placeholder="Email"
+                    />
+                  </div>
+                  <div class="mt-4">
+                    <label class="block mb-2 text-white" for="email">Phone Number: </label>
+                    <input
+                      class="border-2 border-black p-4 w-96 rounded-lg"
+                      type="password"
+                      name="password"
+                      placeholder="Password"
+                    />
+                  </div>
+                  <label class="form-control">
+                    <div class="label">
+                      <span class="label-text text-white">Address :</span>
+                    </div>
+                    <textarea class="textarea textarea-bordered h-24" placeholder="Address"></textarea>
+                  
+                  </label>
+                  <div class="mt-6">
+                    <input class="btn btn-warning w-full rounded-lg" type="submit" name="submit" value="Book Now">
+                  </div>
+                </form>
+              </div>
+              <div class="w-full h-full">
+                <iframe class="lottie_frame" src="https://lottie.host/embed/191593b0-9014-459f-899d-4b10229beab8/NHssX8cDrp.json"></iframe>
+              </div>
+        </section>
+  </main>
+
+    <!-- footer section -->
+    <footer style="border-top: 2px solid gray;" class="footer p-10 bg-base-200 text-base-content ">
+        <aside>
+            <h1 class="left_nav text-3xl">Bengal Bites</h1>
+          <p>ACME Industries Ltd.<br>Providing reliable tech since 1992</p>
+        </aside> 
+        <nav>
+          <h6 class="footer-title">Services</h6> 
+          <a class="link link-hover">Branding</a>
+          <a class="link link-hover">Design</a>
+          <a class="link link-hover">Marketing</a>
+          <a class="link link-hover">Advertisement</a>
+        </nav> 
+        <nav>
+          <h6 class="footer-title">Company</h6> 
+          <a class="link link-hover">About us</a>
+          <a class="link link-hover">Contact</a>
+          <a class="link link-hover">Jobs</a>
+          <a class="link link-hover">Press kit</a>
+        </nav> 
+        <nav>
+          <h6 class="footer-title">Legal</h6> 
+          <a class="link link-hover">Terms of use</a>
+          <a class="link link-hover">Privacy policy</a>
+          <a class="link link-hover">Cookie policy</a>
+        </nav>
+    </footer>
+</body>
+</html>
